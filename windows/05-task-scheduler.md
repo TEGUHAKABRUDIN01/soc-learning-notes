@@ -17,10 +17,10 @@
 
 ### Lab
 
-Name : SOC-Lab-Notepad
-Trigger : When I log on
-Action : Start a program
-Program : notepad.exe
+- Name : SOC-Lab-Notepad
+- Trigger : When I log on
+- Action : Start a program
+- Program : notepad.exe
 
 ### Result
 
