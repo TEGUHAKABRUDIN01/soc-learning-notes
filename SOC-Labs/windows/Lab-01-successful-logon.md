@@ -15,19 +15,16 @@ SOC received an alert:
 
 ## Investigation
 
-Location:
-Windows Logs -> Security
-
-Filter:
-Event ID 4624
+- Location: Windows Logs -> Security
+- Filter: Event ID 4624
 
 ## Evidenace 1
 
-Event ID : 4624
-Account Name : lenovo
-Account Domain: GUH
-Logon Type : 2 (Interactive)
-Time : 24 July 2026 08:21:23
+- Event ID : 4624
+- Account Name : lenovo
+- Account Domain: GUH
+- Logon Type : 2 (Interactive)
+- Time : 24 July 2026 08:21:23
 
 ## Analysis
 
@@ -39,11 +36,11 @@ The user lenovo successfully logged on to the Windows computer at 08:21:23 using
 
 ## Evidenace 2
 
-Event ID : 4624
-Account Name : SYSTEM
-Acoount Domain: NT AUTHORITY
-Logon Type : 5 (Service Windows Login)
-Time : 24 July 2026 08:21:23
+- Event ID : 4624
+- Account Name : SYSTEM
+- Acoount Domain: NT AUTHORITY
+- Logon Type : 5 (Service Windows Login)
+- Time : 24 July 2026 08:21:23
 
 ## Analysis
 
