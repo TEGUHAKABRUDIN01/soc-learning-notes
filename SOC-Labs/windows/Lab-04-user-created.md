@@ -17,26 +17,21 @@ SOC received an alert:
 
 ## Invetigation
 
-Location:
-
-Windows Logs -> Security
-
-Filter:
-Event ID 4720
+- Location: Windows Logs -> Security
+- Filter: Event ID 4720
 
 ## Evidence
 
-Event ID: 4720
-Time: 7/28/2025 09:16:03 AM
-Computer: WINDOWS1
+- Event ID: 4720
+- Time: 7/28/2025 09:16:03 AM
+- Computer: WINDOWS1
+- Subject
+  Security ID: WINDOWS1\vboxuser
+  Account Name: vboxuser
 
-Subject
-Security ID: WINDOWS1\vboxuser
-Account Name: vboxuser
-
-New Account
-Security ID: WINDOWS1\soc_lab
-Account Name: soc_lab
+- New Account
+  Security ID: WINDOWS1\soc_lab
+  Account Name: soc_lab
 
 ## Analysis
 
@@ -47,8 +42,8 @@ Based on the lab scenario, the activity was expected because the account was int
 
 ## Conslusion
 
-A new local user account named "soc_lab" was successfully created on the Windows system.
-The account creation was performed by "vboxuser" at 09:16:03 AM.
+A new local user account named **soc_lab** was successfully created on the Windows system.
+The account creation was performed by **vboxuser** at 09:16:03 AM.
 Based on the available evidence and the lab scenario, this activity was legitimate and authorized.
 
 ## Learning
