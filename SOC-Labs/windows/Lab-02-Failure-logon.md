@@ -16,28 +16,21 @@ SOC received an alert:
 
 ## Investigation
 
-Location:
-Windows Logs -> Security
+- Location: Windows Logs -> Security
 
-Filter:
-Event ID 4625
+- Filter: Event ID 4625
 
 ## Evidence
 
-Event ID: 4625
-Account Name: vboxuser
-Account Domain: WINDOWS1
-Logon Type: 2 (Interactive)
-Time: 7/25/2026 07:43:24 PM
+- Event ID: 4625
+- Account Name: vboxuser
+- Account Domain: WINDOWS1
+- Logon Type: 2 (Interactive)
+- Time: 7/25/2026 07:43:24 PM
 
-Failure Reason:
-Unknown user name or bad password
-
-Status:
-0xC000006D
-
-Sub Status:
-0xC000006A
+- Failure Reason: Unknown user name or bad password
+- Status: 0xC000006D
+- Sub Status: 0xC000006A
 
 ## Analysis
 
@@ -49,7 +42,7 @@ The Sub Status (0xC000006A) indicates that the logon failed because an incorrect
 
 ## Conslusion
 
-The user "vboxuser" failed to log on to the Windows computer at 07:43:24 PM using Interactive Logon (Logon Type 2).
+The user **vboxuser** failed to log on to the Windows computer at 07:43:24 PM using Interactive Logon (Logon Type 2).
 
 The failed logon was caused by an incorrect password.
 
