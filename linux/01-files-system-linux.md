@@ -55,7 +55,7 @@ Its responsibilities include:
 ## Linux File System Architecture
 
 ```text
-![ Linux File System Architecture Image ] (../assets/image-arsitektur-file-system.png)
+![Linux File System Architecture Image](../assets/image-arsitektur-file-system.png)
 ```
 
 ---
