@@ -15,56 +15,35 @@ SOC received an alert:
 
 ## Investigation
 
-Location:
-Windows Logs -> Security
+- Location: Windows Logs -> Security
 
-Filter: Event ID 4625
+- Filter: Event ID 4625
 
 ## Evidence 1
 
-Event ID: 4625
-Account Name: vboxuser
-Account Domain: WINDOWS1
-Logon Type: 2 (Interactive)
-Time: 7/27/2026 07:44:02 PM
-
-Source Network Address:
-127.0.0.1
-
-Workstation Name:
-WINDOWS1
-
-Failure Reason:
-Unknown user name or bad password
-
-Status:
-0xC000006D
-
-Sub Status:
-0xC000006A
+- Event ID: 4625
+- Account Name: vboxuser
+- Account Domain: WINDOWS1
+- Logon Type: 2 (Interactive)
+- Time: 7/27/2026 07:44:02 PM
+- Source Network Address: 127.0.0.1
+- Workstation Name: WINDOWS1
+- Failure Reason: Unknown user name or bad password
+- Status: 0xC000006D
+- Sub Status: 0xC000006A
 
 ## Evidence 2
 
-Event ID: 4625
-Account Name: vboxuser
-Account Domain: WINDOWS1
-Logon Type: 2 (Interactive)
-Time: 7/27/2026 07:44:10 PM
-
-Source Network Address:
-127.0.0.1
-
-Workstation Name:
-WINDOWS1
-
-Failure Reason:
-Unknown user name or password bad
-
-Status:
-0xC000006D
-
-Sub Status:
-0xC000006A
+- Event ID: 4625
+- Account Name: vboxuser
+- Account Domain: WINDOWS1
+- Logon Type: 2 (Interactive)
+- Time: 7/27/2026 07:44:10 PM
+- Source Network Address: 127.0.0.1
+- Workstation Name: WINDOWS1
+- Failure Reason: Unknown user name or password bad
+- Status: 0xC000006D
+- Sub Status: 0xC000006A
 
 ## Analysis
 
