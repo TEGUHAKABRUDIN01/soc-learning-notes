@@ -54,8 +54,6 @@ Its responsibilities include:
 
 ## Linux File System Architecture
 
-![Linux File System Architecture Image](../assets/image-arsitektur-file-system.png)
-
 # Linux File System Types
 
 ### 1. ext (Extended File System)
