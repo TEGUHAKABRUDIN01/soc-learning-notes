@@ -29,9 +29,9 @@ This repository was created to:
 
 ## 🔄 Phase 2 — Windows Event Viewer
 
-- [ ] Hands-on Lab
-- [ ] Event Log Investigation
-- [ ] Event ID Analysis
+- [x] Hands-on Lab
+- [x] Event Log Investigation
+- [x] Event ID Analysis
 
 ## ⏳ Phase 3 — Security Fundamentals
 
@@ -166,9 +166,9 @@ This repository also includes practical labs completed during my learning journe
 
 ### Windows
 
-- [ ] Event Viewer Investigation
-- [ ] Event ID Analysis
-- [ ] Windows Log Investigation
+- [x] Event Viewer Investigation
+- [x] Event ID Analysis
+- [x] Windows Log Investigation
 
 ### Linux
 
