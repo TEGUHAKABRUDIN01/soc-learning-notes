@@ -27,7 +27,7 @@ This repository was created to:
 - [x] Linux Fundamentals
 - [x] Networking Fundamentals
 
-## 🔄 Phase 2 — Windows Event Viewer
+## ✅ Phase 2 — Windows Event Viewer
 
 - [x] Hands-on Lab
 - [x] Event Log Investigation
